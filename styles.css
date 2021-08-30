@@ -1,0 +1,167 @@
+
+#title{background-color: #ff4c68;
+  color: #ffffff;
+
+}
+
+
+h1{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+line-height: 1.5;
+margin-bottom: 2.2rem;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding:3% 15% 7%;
+
+}
+
+.title-image{
+
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+
+}
+
+.heading-section{
+
+  margin-top: 3.1rem;
+
+}
+.nav-item{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.nav-link{
+
+  font-size:20px;
+}
+.navbar-brand{
+   font-family: 'ubuntu';
+  font-size: 2rem;
+ font-weight: bolder;}
+.navbar{
+  padding-left:0;
+}
+
+.download-button{
+
+  margin: 5% 3% 5% 0;
+}
+
+.feature-icon{
+  color: #ef8172;
+padding: 0 40%;
+text-align: center;
+margin-bottom: 1rem;
+}
+.feature-icon:hover{
+  color: #ff4c68;
+}
+.feature-h3{
+  font-family: "Montserrat";
+  font-weight:bold;
+  font-size: 1.5rem;
+
+}
+
+.feature-p{
+  color: #8f8f8f;
+  width: 50%;
+margin: auto;}
+p{
+  color: #8f8f8f;
+}
+.feature-section{
+  padding: 5rem 5rem;
+  text-align:center;
+
+}
+
+/* Testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+ color: #ffffff;
+}
+.carousel-item{
+  padding: 7% 15%;
+
+
+}
+.testimonial-image{
+ margin:20px;
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press{
+  background-color: #ef8172;
+text-align: center;
+padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing section */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+#features{
+  background-color: #ffffff;
+  position: relative;
+}
+
+@media (max-width:1028px){
+.title-image{
+position: static;
+transform: rotate(0);}
+#title{
+  text-align: center;
+
+}
+}
+#cta{
+  background-color: #ff4c68;
+    color: #ffffff;
+    padding: 7% 15%;
+
+}
+.cta-div{
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+.cta-button{
+  margin-top:50px;
+  margin-right: 15px;
+}
+.cta-h3{
+  font-size:2.5rem;
+  line-height:1.5;
+  width: 70%;
+  margin: auto;
+}
+.footer-div{
+  text-align: center;
+  padding: 75px 50px 0 50px;
+}
+.fas-icon{
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
